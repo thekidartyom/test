@@ -1,0 +1,116 @@
+body {
+font-family: 'Helvetica Neue', sans-serif;
+background-color: #FDF3E7;
+color: #444444;
+}
+
+header {
+background-color: #FEB2A4;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+.nav-link {
+display: inline-block;
+padding: 10px 15px;
+margin-right: 10px;
+border-radius: 20px;
+font-size: 20px;
+text-decoration: none;
+color: white;
+background-color: grey;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for the navigation links */
+.nav-link:hover {
+background-color: #00BFFF;
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+transform: translateY(-2px);
+}
+
+/* Change the navigation links to be horizontally aligned */
+nav ul {
+list-style: none;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+display: inline-block;
+margin-right: 20px;
+}
+
+nav a {
+text-decoration: none;
+color: white;
+background-color: grey;
+padding: 10px 20px;
+border-radius: 20px;
+}
+
+nav a:hover {
+background-color: #00BFFF;
+transform: translateY(-2px);
+}
+
+main {
+padding: 20px;
+}
+
+.countdown {
+margin-bottom: 30px;
+text-align: center;
+}
+
+.countdown #countdown-timer {
+font-size: 24px;
+font-weight: bold;
+margin: 10px 0;
+}
+
+.message {
+margin-bottom: 30px;
+text-align: center;
+}
+
+.message img {
+border-radius: 50%;
+box-shadow: 0px 0px 20px #FFB8B8;
+margin-bottom: 10px;
+width: 200px;
+}
+
+.video {
+text-align: center;
+}
+
+.image-container {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.image-container img {
+max-width: 100%;
+max-height: 100%;
+object-fit: contain;
+border: 5px solid #fff;
+box-shadow: 0px 0px 10px #ccc;
+}
+
+footer {
+background-color: #2c3e50;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+footer a {
+color: white;
+text-decoration: none;
+}
